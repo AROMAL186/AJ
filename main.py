@@ -46,7 +46,7 @@ def registration():
 
         return render_template('registration_success.html')
 
-    return render_template('registration_form.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
